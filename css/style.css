@@ -148,6 +148,7 @@ body {
   background-color: #000000;
   background-size: cover;
   width: 25%;
+  display: flex;
 }
 
 
@@ -159,6 +160,7 @@ body {
   background-color: #000000;
   background-size: cover;
   width: 25%;
+  display: flex;
 }
 
 .trends-posts-article3 {
@@ -168,7 +170,7 @@ body {
   background-color: #000000;
   background-size: cover;
   width: 25%;
-  
+  display: flex;
   
 }
 
@@ -179,7 +181,7 @@ body {
   background-color: #000000;
   background-size: cover;
   width: 25%;
-  
+  display: flex;
   
 }
 
