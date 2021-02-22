@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
 }
@@ -125,11 +125,15 @@ body {
   color: #000000;
   font-size: 20px;
   font-weight: bold;
-  font-family: inherit;
+  font-family: "OpenSans", san-serif;
 }
 
 .trends-posts-articles {
   display: flex;
+}
+
+.article-menu-list-teg {
+  font-family: "OpenSans", san-serif;
 }
 
 .trends-article-title {
@@ -138,7 +142,7 @@ body {
   color: #ffffff;
   font-size: 20px;
   font-weight: bold;
-  font-family: inherit;
+  font-family: "OpenSans", san-serif;
 }
 
 .trends-posts-article1 {
@@ -532,6 +536,71 @@ p {
   margin-left: 4px;
   color: #b59f5b;
 }
+
+
+
+
+
+
+
+.shop-aside {
+  margin-top: 64px;
+}
+
+.shop-section-title {
+  text-align: center;
+  margin-top: 0;
+}
+
+.shop-section-title::after {
+  content: "";
+  display: block;
+  background-color: #b59f5b;
+  margin: 12px auto 12px;
+  height: 2px;
+  width: 64px;
+  opacity: 0.4;
+}
+
+.shop-news {
+  display: flex;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shop-title {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.shop-news-img {
+  width: 300px;
+}
+
+.content-title {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.text {
+  font-size: 15px;
+  font-family: inherit;
+}
+
+
+
+
+
+
 
 .article-footer {
   margin-top: 62px;
