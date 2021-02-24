@@ -588,6 +588,7 @@ p {
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
+  justify-content: space-between;
 }
 
 .shop-product-body {
