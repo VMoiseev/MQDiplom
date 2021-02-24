@@ -630,7 +630,8 @@ p {
 }
 
 .shop-product-prices {
-  
+  display: flex;
+  flex-direction: column;
 }
 
 .product-price-old {
