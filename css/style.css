@@ -630,6 +630,11 @@ p {
   font-family: inherit;
 }
 
+.shop-product-link {
+  text-decoration: none;
+  color: #b59f5b;
+}
+
 .product-button {
   height: 48px;
   width: 138px;
