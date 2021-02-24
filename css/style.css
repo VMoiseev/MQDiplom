@@ -152,8 +152,10 @@
   font-family: inherit;
 }
 
-.trends-posts-article1 {
-  background-image: url("../images/trend1.jpg");
+.trends-posts-article1,
+.trends-posts-article2,
+.trends-posts-article3,
+.trends-posts-article4 {
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #000000;
@@ -161,8 +163,12 @@
   width: 25%;
   display: flex;
   align-items: flex-end;
-  margin-right: 2px;
   position: relative;
+}
+
+.trends-posts-article1 {
+  background-image: url("../images/trend1.jpg");
+  margin-right: 2px;
   z-index: 5;
 }
 
@@ -180,15 +186,7 @@
 
 .trends-posts-article2 {
   background-image: url("../images/trend2.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #000000;
-  background-size: cover;
-  width: 25%;
-  display: flex;
-  align-items: flex-end;
   margin: 0 2px;
-  position: relative;
   z-index: 8;
 }
 
@@ -206,15 +204,7 @@
 
 .trends-posts-article3 {
   background-image: url("../images/trend3.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #000000;
-  background-size: cover;
-  width: 25%;
-  display: flex;
-  align-items: flex-end;
   margin: 0 2px;
-  position: relative;
   z-index: 10;
 }
 
@@ -232,15 +222,7 @@
 
 .trends-posts-article4 {
   background-image: url("../images/trend4.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #000000;
-  background-size: cover;
-  width: 25%;
-  display: flex;
-  align-items: flex-end;
   margin-left: 2px;
-  position: relative;
   z-index: 12;
 }
 
