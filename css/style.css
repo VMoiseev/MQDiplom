@@ -99,6 +99,7 @@
 
 .trends-posts {
   margin-top: 63px;
+  font-family: OpenSans, san-serif;
 }
 
 .trends-article-news-title {
@@ -131,7 +132,7 @@
   color: #000000;
   font-size: 20px;
   font-weight: bold;
-  font-family: "OpenSans", san-serif;
+  font-family: inherit;
 }
 
 .trends-posts-articles {
@@ -139,7 +140,7 @@
 }
 
 .article-menu-list-teg {
-  font-family: "OpenSans", san-serif;
+  font-family: inherit;
 }
 
 .trends-article-title {
@@ -148,7 +149,7 @@
   color: #ffffff;
   font-size: 20px;
   font-weight: bold;
-  font-family: "OpenSans", san-serif;
+  font-family: inherit;
 }
 
 .trends-posts-article1 {
@@ -554,6 +555,10 @@ p {
   margin-top: 64px;
 }
 
+.shop-section {
+  font-family: OpenSans, san-serif;
+}
+
 .shop-section-title {
   text-align: center;
   margin-top: 0;
@@ -565,14 +570,14 @@ p {
   color: #000000;
   font-size: 20px;
   font-weight: bold;
-  font-family: OpenSans, san-serif;
+  font-family: inherit;
 }
 
 .shop-section-title::after {
   content: "";
   display: block;
   background-color: #b59f5b;
-  margin: 12px auto 12px;
+  margin: 12px auto 28px;
   height: 2px;
   width: 64px;
   opacity: 0.4;
@@ -600,7 +605,7 @@ p {
   text-transform: uppercase;
   color: #000000;
   font-size: 20px;
-  font-family: OpenSans, san-serif;
+  font-family: inherit;
   font-weight: bold;
 }
 
@@ -613,7 +618,7 @@ p {
 
 .shop-product-description {
   font-size: 15px;
-  font-family: OpenSans, san-serif;
+  font-family: inherit;
   margin-bottom: 23px;
 }
 
@@ -632,13 +637,13 @@ p {
   text-decoration: line-through;
   font-size: 14px;
   font-weight: bold;
-  font-family: OpenSans, san-serif;
+  font-family: inherit;
 }
 
 .product-price {
   font-size: 20px;
   font-weight: bold;
-  font-family: OpenSans, san-serif;
+  font-family: inherit;
 }
 
 .product-button {
