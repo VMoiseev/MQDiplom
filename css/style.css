@@ -16,17 +16,49 @@
   font-style: normal;
 }
 
-.header {
-  background-image: url("../images/banner-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #000000;
-  background-size: cover;
-  font-family: "OpenSans", sans-serif;
-  position: relative;
-  text-transform: uppercase;
-  padding-top: 25px;
-  padding-bottom: 145px;
+@media (min-width: 1200px) {
+  .header {
+    background-image: url("../images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000000;
+    background-size: cover;
+    font-family: "OpenSans", sans-serif;
+    position: relative;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 145px;
+  }
+}
+
+@media (min-width: 641px) {
+  .header {
+    background-image: url("../images/banner-bg-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000000;
+    background-size: cover;
+    font-family: "OpenSans", sans-serif;
+    position: relative;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 145px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    background-image: url("../images/banner-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000000;
+    background-size: cover;
+    font-family: "OpenSans", sans-serif;
+    position: relative;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 145px;
+  }
 }
 
 .header::after {
@@ -88,12 +120,7 @@
   position: relative;
   z-index: 2;
 }
-
-
-
-
-
-
+                                       /* Блок "Сейчас в тренде"  начало*/
 
 
 
@@ -151,19 +178,36 @@
   font-weight: bold;
   font-family: inherit;
 }
+@media (min-width: 1200px) {
+  .trends-posts-article1,
+  .trends-posts-article2,
+  .trends-posts-article3,
+  .trends-posts-article4 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000000;
+    background-size: cover;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+  }
+}
 
-.trends-posts-article1,
-.trends-posts-article2,
-.trends-posts-article3,
-.trends-posts-article4 {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #000000;
-  background-size: cover;
-  width: 25%;
-  display: flex;
-  align-items: flex-end;
-  position: relative;
+@media (min-width: 641px) and (max-width: 1199px) {
+  .trends-posts-article1,
+  .trends-posts-article2,
+  .trends-posts-article3,
+  .trends-posts-article4 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000000;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+  }
 }
 
 .trends-posts-article1 {
@@ -245,12 +289,7 @@
   z-index: 999;
 }
 
-
-
-
-
-
-
+                                /* Блок "Сейчас в тренде"  конец*/
 
 .content {
   display: flex;
@@ -273,6 +312,13 @@
 
 .news-list {
   display: flex;
+}
+
+@media (min-width: 641px) and (max-width: 1199px) {
+  .news-list {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .article {
