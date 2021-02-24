@@ -549,6 +549,7 @@ p {
 
 
 
+
 .shop-aside {
   margin-top: 64px;
 }
@@ -556,6 +557,15 @@ p {
 .shop-section-title {
   text-align: center;
   margin-top: 0;
+}
+
+.shop-title {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: OpenSans, san-serif;
 }
 
 .shop-section-title::after {
@@ -568,38 +578,74 @@ p {
   opacity: 0.4;
 }
 
-.shop-news {
+.shop-products {
   display: flex;
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.shop-title {
+.shop-product-body {
+  padding: 20px;
+}
+
+.shop-product {
+  width: 344px;
+  border: 2px solid #b59f5b;
+  
+}
+
+.shop-content-title {
   text-decoration: none;
   text-transform: uppercase;
   color: #000000;
   font-size: 20px;
-  font-family: inherit;
+  font-family: OpenSans, san-serif;
   font-weight: bold;
 }
 
-.shop-news-img {
+.shop-product-img {
   width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
-.content-title {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000000;
+.shop-product-description {
+  font-size: 15px;
+  font-family: OpenSans, san-serif;
+  margin-bottom: 23px;
+}
+
+.shop-products-footer {
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shop-product-prices {
+  
+}
+
+.product-price-old {
+  text-decoration: line-through;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: OpenSans, san-serif;
+}
+
+.product-price {
   font-size: 20px;
   font-weight: bold;
-  font-family: inherit;
+  font-family: OpenSans, san-serif;
 }
 
-.text {
-  font-size: 15px;
-  font-family: inherit;
+.product-button {
+  height: 48px;
+  width: 138px;
+  border: none;
+  background-color: #b59f5b;
 }
 
 
