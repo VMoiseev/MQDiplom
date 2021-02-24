@@ -164,6 +164,7 @@
 
 .trends-posts-articles {
   display: flex;
+  justify-content: space-between;
 }
 
 .article-menu-list-teg {
@@ -187,7 +188,7 @@
     background-position: center center;
     background-color: #000000;
     background-size: cover;
-    width: 25%;
+    width: 24.8%;
     display: flex;
     align-items: flex-end;
     position: relative;
@@ -212,7 +213,7 @@
 
 .trends-posts-article1 {
   background-image: url("../images/trend1.jpg");
-  margin-right: 2px;
+  /*margin-right: 2px; */
   z-index: 5;
 }
 
@@ -230,7 +231,7 @@
 
 .trends-posts-article2 {
   background-image: url("../images/trend2.jpg");
-  margin: 0 2px;
+  /*margin: 0 2px;*/
   z-index: 8;
 }
 
@@ -248,7 +249,7 @@
 
 .trends-posts-article3 {
   background-image: url("../images/trend3.jpg");
-  margin: 0 2px;
+  /*margin: 0 2px;*/
   z-index: 10;
 }
 
@@ -266,7 +267,7 @@
 
 .trends-posts-article4 {
   background-image: url("../images/trend4.jpg");
-  margin-left: 2px;
+  /*margin-left: 2px;*/
   z-index: 12;
 }
 
