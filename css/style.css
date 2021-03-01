@@ -270,13 +270,7 @@
     position: absolute;
     left: 0;
 }
-
-
-
-
                                        /* Блок "Сейчас в тренде"  начало*/
-
-
 
 @media (orientation: landscape) and (max-width: 640px) {
   .trends-posts-article1,
@@ -579,15 +573,10 @@
   position: relative;
   z-index: 999;
 }
-
                                              /* Блок "Сейчас в тренде"  конец*/
 
-
-
-
-
 .content {
-    font-family: "OpenSans", san-serif;
+  font-family: "OpenSans", san-serif;
 }
 
 @media (max-width: 640px) {
@@ -1034,12 +1023,6 @@
   color: #b59f5b;
 }
 
-
-
-
-
-
-
 @media (min-width: 641px) and (max-width: 1199px) {
   .shop-aside {
     margin-top: 10px;
@@ -1186,12 +1169,6 @@
   background-color: #b59f5b;
 }
 
-
-
-
-
-
-
 .article-footer {
   margin-top: 62px;
   padding-bottom: 40px;
@@ -1278,12 +1255,7 @@
   margin-top: 72px;
 }
 
-
-
-
-
 /*  POPUP   */
-
 
 @media (max-width: 640px) {
   .popup-section {
