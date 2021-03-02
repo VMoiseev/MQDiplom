@@ -1128,6 +1128,14 @@ body {
   margin-bottom: 23px;
 }
 
+.shop-products-footer {
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*
 .shop-products-footer1,
 .shop-products-footer2,
 .shop-products-footer3 {
@@ -1144,7 +1152,7 @@ body {
 .shop-products-footer3 {
   margin-bottom: 20px;
 }
-
+*/
 .shop-product-prices {
   display: flex;
   flex-direction: column;
