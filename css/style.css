@@ -1078,6 +1078,8 @@ body {
 .shop-product {
   display: flex;
   flex-direction: column;
+  border: 2px solid #b59f5b;
+  margin-top: 170px;
 }
 
 .shop-title {
@@ -1099,10 +1101,14 @@ body {
   opacity: 0.4;
 }
 
+.shop-product-preview {
+  margin-top: -170px;
+  z-index: -1;
+}
+
 .shop-product-body {
   padding: 50px 20px 20px;
   margin-top: -60px;
-  border: 2px solid #b59f5b;
 }
 
 .shop-content-title {
