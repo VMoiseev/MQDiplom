@@ -822,6 +822,8 @@ body {
     color: #0f0d0e;
     font-size: 15px;
     font-family: inherit;
+    margin-bottom: 15px;
+    
   }
 
   .aside-title {
@@ -833,6 +835,7 @@ body {
     font-family: inherit;
   }
 }
+
 
 .article-title {
   font-family: inherit;
