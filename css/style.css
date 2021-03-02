@@ -1182,6 +1182,7 @@ body {
 .article-footer {
   margin-top: 62px;
   padding-bottom: 40px;
+  font-family: OpenSans, san-serif;
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
