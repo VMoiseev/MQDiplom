@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: "OpenSans";
   src: url(../fonts/OpenSans-Bold.woff);
@@ -1167,6 +1173,9 @@
   width: 138px;
   border: none;
   background-color: #b59f5b;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .article-footer {
