@@ -1175,6 +1175,8 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
+  font-family: inherit;
+  font-size: 14px;
 }
 
 .article-footer {
